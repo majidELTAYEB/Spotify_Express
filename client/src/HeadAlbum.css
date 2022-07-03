@@ -1,0 +1,24 @@
+.ContaintAL{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #2a2929;
+}
+.ContaintTit{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.txtHead{
+  color: grey;
+}
+
+.ContaintCov{
+  margin-right: 30px;
+}
+.ContaintCov img{
+  box-shadow: 10px 10px 10px #050505;
+}
+

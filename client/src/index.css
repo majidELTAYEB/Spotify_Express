@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+ overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navcontaint{
+  background-color: black;
+  color: white;
+  width:300px;
+  padding-top: 2%;
+  height: 100vh;
+}
+
+.navitem{
+  height: 30px;
+  color: #b4adad;
+}
+
+
+
+.navitem:hover {
+  color: #1DB954;
+}
+
+.navitem::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1DB954;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.PageContaint{
+  display: flex;
+  flex-direction: row;
+}
+
+.CoverContaint{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  background-color: #151515;
+  height: 100vh;
+}
+
+.imgCover{
+  width: 200px;
+}
+
+article{
+  margin: 15px;
+  width: 200px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #262626;
+  box-shadow: 10px 10px 10px #050505;
+}
+article:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform:    scale(1.05);
+  -o-transform:      scale(1.05);
+  -ms-transform:     scale(1.05);
+}
+
+article div{
+  width: 70%;
+}
+
+.alName{
+  margin-top: 6px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.arname{
+  margin-top: 10px;
+  color: #b4adad;
+  font-family: 'Signika', sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.containHome div{
+  height: 100%;
+  padding-left: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.containHome{
+  align-items: center;
+  height: 60px;
+}
+
+.containHome div div{
+  margin-right: 20px;
+}
+
+.containHome:hover{
+  background-color: #1e1e1e;
+}
+
+.containHome div div ion-icon{
+  font-weight: bold;
+  font-size: 25px;
+  color:  #b4adad;
+}
+
+.containHome div div p{
+  font-size: 20px;
+  color:  #b4adad;
+}
+
+.logo{
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.containtlogo{
+  padding-left: 20px;
+}
+.albumID{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.ContaintAL{
+  height: 350px;
+  width: 100%;
+}
+.ContaintCov img{
+  width: 320px;
+  height: 320px;
+}
+
+.HeadMus{
+  height: 100vh;
+  width:100% ;
+  overflow: scroll;
+}
+.txtHead{
+  width: 100%;
+}
+
+.musicLis{
+  width: 100%;
+  height: 100vh;
+}
+.ContaintTit{
+  width: 100%;
+}
+
+ul{
+  padding: 50px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+li{
+  display: flex;
+  flex-direction: row;
+}
+
+li div{
+  margin-right: 30px;
+}
+
+
+

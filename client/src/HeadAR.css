@@ -1,0 +1,45 @@
+.imgContaint img{
+
+  width: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.imgContaint{
+  height: 350px;
+  overflow: hidden;
+  background-color: #2c2c2c;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.imgContaint h1{
+  width: 100%;
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  background-color: transparent;
+  z-index: 2;
+
+}
+
+.conteneur{
+  display: flex;
+  flex-direction: row;
+}
+
+.ContaintHeadAR{
+  width: 100%;
+  overflow: scroll;
+  height: 100vh;
+  background-color: #363636;
+  overflow: hidden;
+}
+
+
+
+
